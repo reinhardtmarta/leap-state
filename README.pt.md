@@ -1,5 +1,7 @@
 # Leap-State Architecture
 
+<h2 id="português">🇧🇷 Português</h2>
+
 **Roteamento Geodésico Determinístico e Atlas de Retalhos Locais para IA.**
 
 A arquitetura **Leap-State** é um motor de inferência neuro-simbólico que substitui a grade euclidiana densa dos modelos tradicionais por um roteamento hierárquico no Disco de Poincaré. Ao utilizar uma distribuição em bifurcação ($Y$) e transições isométricas entre retalhos locais (Manifold Atlas), o sistema corta a carga computacional e força consistência axiomática.
