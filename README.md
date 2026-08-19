@@ -10,10 +10,11 @@
 
 The **Leap-State** architecture is a neuro-symbolic inference engine that replaces the dense Euclidean grid of traditional models with hierarchical routing in the Poincaré Disk. By using a Y-bifurcation distribution and isometric transitions between local patches (Manifold Atlas), the system drastically cuts computational load and enforces axiomatic consistency.
 
-### The Current Bottleneck (Why not use Dense Transformers?)
-Commercial language models rely on full attention (All-to-All / Dense), operating under flat Euclidean geometry. This requires hardware to calculate relationships across all parameters at inference time, generating:
-1. **Quadratic Cost $O(N^2)$**: Massive waste of electrical energy and FLOPs on paths unrelated to the query.
-2. **Metric Distortion**: Attempts to force complex topologies into flat global matrices cause coordinate dilation and structural hallucination.
+### The Hardware Bottleneck: Where Academic Hyperbolic AI Failed
+State-of-the-art research in Hyperbolic Neural Networks (HNNs) shares a massive blind spot: **hardware incompatibility**. Academic papers build mathematically elegant, purely non-Euclidean models that destroy GPU/TPU performance because modern silicon chips are highly optimized for flat, linear matrix multiplication. They created beautiful theory that is computationally unviable for production.
+
+The **Leap-State** architecture bridges this exact gap by decoupling topology from raw compute. Instead of forcing heavy Riemannian geometry onto the entire pipeline, it divides the workload into a lightweight hyperbolic routing index and fast, isolated local Euclidean patches.
+
 
 ### The Leap-State Solution
 The system isolates computation through three mathematical mechanics:
@@ -53,10 +54,10 @@ The mathematical core is open source. Business data, taxonomies, and proprietary
 
 A arquitetura **Leap-State** é um motor de inferência neuro-simbólico que substitui a grade euclidiana densa dos modelos tradicionais por um roteamento hierárquico no Disco de Poincaré. Ao utilizar uma distribuição em bifurcação ($Y$) e transições isométricas entre retalhos locais (Manifold Atlas), o sistema corta a carga computacional e força consistência axiomática.
 
-## O Gargalo Atual (Por que não usar Transformers Densos?)
-Modelos de linguagem comerciais baseiam-se em atenção total (*All-to-All / Dense*), operando sob geometria euclidiana plana. Isso exige que o hardware calcule relações entre todos os parâmetros na rede em tempo de inferência, gerando:
-1.  **Custo Quadrático $O(N^2)$**: Desperdício massivo de energia elétrica e FLOPs em caminhos não relacionados à consulta.
-2.  **Distorção Métrica**: Tentativas de forçar topologias complexas em matrizes planas globais causam dilatação de coordenadas e alucinação estrutural.
+### O Gargalo de Hardware: Onde a Pesquisa Acadêmica de IA Hiperbólica Falhou
+As pesquisas de ponta em Redes Neurais Hiperbólicas (HNNs) compartilham um ponto cego massivo: **a incompatibilidade com o hardware**. Artigos acadêmicos constroem modelos matematicamente elegantes e puramente não-euclidianos que destroem a performance de GPUs/TPUs, pois os chips de silício modernos são otimizados exclusivamente para multiplicação de matrizes lineares planas. Eles criaram uma teoria bonita, mas computacionalmente inviável para produção.
+
+A arquitetura **Leap-State** resolve exatamente essa ponte ao desacoplar a topologia do cálculo bruto. Em vez de forçar uma geometria Riemanniana pesada em todo o pipeline, o sistema divide a carga de trabalho em um índice de roteamento hiperbólico leve e retalhos euclidianos locais rápidos e isolados.
 
 ## A Solução Leap-State
 O sistema isola o cálculo através de três mecânicas matemáticas:
