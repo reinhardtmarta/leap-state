@@ -1,0 +1,28 @@
+# ====================================================
+# .gitignore para Leap-State Architecture
+# ====================================================
+
+# 1. DADOS PRIVADOS E TAXONOMIAS DE NEGÓCIO (BLINDAGEM SCAA)
+# A pasta proprietary_data jamais deve ir para o controle de versão público.
+proprietary_data/
+*.bin
+*.pt
+*.pth
+*.weights
+
+# 2. Arquivos de Ambiente Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# 3. Arquivos de Sistema e IDEs
+.DS_Store
+.vscode/
+.idea/
+*.swp
+
+# 4. Notebooks de Rascunho Locais
+.ipynb_checkpoints/
